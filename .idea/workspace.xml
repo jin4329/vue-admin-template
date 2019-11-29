@@ -1,0 +1,442 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="326d2098-d5f9-46eb-895b-53a94e9fa35b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.env.development" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.env.production" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.env.staging" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.eslintignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.eslintrc.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vue-admin-template.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.travis.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README-zh.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/babel.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jest.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mock/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mock/mock-server.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mock/table.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mock/user.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/postcss.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/App.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/api/table.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/api/user.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/404_images/404.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/404_images/404_cloud.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Breadcrumb/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Hamburger/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/SvgIcon/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/icons/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/icons/svg/dashboard.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/icons/svg/example.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/icons/svg/eye-open.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/icons/svg/eye.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/icons/svg/form.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/icons/svg/link.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/icons/svg/nested.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/icons/svg/password.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/icons/svg/table.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/icons/svg/tree.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/icons/svg/user.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/icons/svgo.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/layout/components/AppMain.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/layout/components/Navbar.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/layout/components/Sidebar/FixiOSBug.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/layout/components/Sidebar/Item.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/layout/components/Sidebar/Link.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/layout/components/Sidebar/Logo.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/layout/components/Sidebar/SidebarItem.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/layout/components/Sidebar/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/layout/components/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/layout/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/layout/mixin/ResizeHandler.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/permission.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/router/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/settings.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/getters.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/modules/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/modules/permission.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/modules/settings.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/modules/user.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/element-ui.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/index.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/mixin.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/sidebar.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/transition.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/variables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/auth.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/get-page-title.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/request.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/validate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/404.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/dashboard/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/form/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/login/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/nested/menu1/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/nested/menu1/menu1-1/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/nested/menu1/menu1-2/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/nested/menu1/menu1-2/menu1-2-1/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/nested/menu1/menu1-2/menu1-2-2/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/nested/menu1/menu1-3/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/nested/menu2/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/table/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/tree/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/unit/.eslintrc.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/unit/components/Breadcrumb.spec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/unit/components/Hamburger.spec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/unit/components/SvgIcon.spec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/unit/utils/formatTime.spec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/unit/utils/parseTime.spec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/unit/utils/validate.spec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue.config.js" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/store/modules/permission.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="624">
+              <caret line="24" column="28" selection-start-line="24" selection-start-column="28" selection-end-line="24" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/router/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="884">
+              <caret line="35" column="28" selection-start-line="35" selection-start-column="28" selection-end-line="35" selection-end-column="28" />
+              <folding>
+                <element signature="e#0#21#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <element signature="e#0#21#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/permission.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="182">
+              <caret line="39" column="87" selection-start-line="39" selection-start-column="87" selection-end-line="39" selection-end-column="87" />
+              <folding>
+                <element signature="e#0#29#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/store/modules/permission.js" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="vue-admin-template" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vue-admin-template" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="vue-admin-template" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vue-admin-template" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="vue-admin-template" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vue-admin-template" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
+              <item name="unit" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Git.Branch.Popup.ShowAllRemotes" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="editor.config.ad.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="prettierjs.PrettierConfiguration.Package" value="E:\work\vue-admin-template\node_modules\prettier" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="ts.external.directory.path" value="D:\Program Files\JetBrains\WebStorm 2019.1.3\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="dev" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="dev" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.dev" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="326d2098-d5f9-46eb-895b-53a94e9fa35b" name="Default Changelist" comment="" />
+      <created>1574738175777</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1574738175777</updated>
+      <workItem from="1574738176989" duration="4699000" />
+      <workItem from="1574836418382" duration="667000" />
+      <workItem from="1574993560503" duration="885000" />
+      <workItem from="1574994465662" duration="3391000" />
+      <workItem from="1574999453182" duration="19000" />
+      <workItem from="1574999501091" duration="1309000" />
+    </task>
+    <task id="LOCAL-00001" summary="start">
+      <created>1574999330299</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1574999330299</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="10970000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24973656" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="npm" order="2" side_tool="true" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32939914" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32939914" />
+      <window_info anchor="bottom" id="TypeScript" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.32939914" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/vue-admin" />
+      <path value="$PROJECT_DIR$" />
+      <path value="$PROJECT_DIR$/vue-admin-template" />
+    </ignored-roots>
+    <MESSAGE value="start" />
+    <option name="LAST_COMMIT_MESSAGE" value="start" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/node_modules/@types/node/globals.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-737">
+          <caret line="192" column="4" selection-start-line="192" selection-start-column="4" selection-end-line="192" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vue-admin/LICENSE" />
+    <entry file="file://$PROJECT_DIR$/mock/user.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mock/table.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vue.config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-390" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/views/dashboard/index.vue">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Hamburger/index.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="17" column="20" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/utils/validate.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="416">
+          <caret line="16" column="16" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/views/login/index.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="61" column="21" selection-start-line="61" selection-start-column="21" selection-end-line="61" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Breadcrumb/index.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="362">
+          <caret line="31" column="42" selection-start-line="31" selection-start-column="42" selection-end-line="31" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/store/getters.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="520">
+          <caret line="26" column="4" lean-forward="true" selection-start-line="26" selection-start-column="4" selection-end-line="26" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="416">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/store/modules/permission.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="624">
+          <caret line="24" column="28" selection-start-line="24" selection-start-column="28" selection-end-line="24" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/router/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="884">
+          <caret line="35" column="28" selection-start-line="35" selection-start-column="28" selection-end-line="35" selection-end-column="28" />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/permission.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="39" column="87" selection-start-line="39" selection-start-column="87" selection-end-line="39" selection-end-column="87" />
+          <folding>
+            <element signature="e#0#29#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

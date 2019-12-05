@@ -51,43 +51,8 @@ export const constantRoutes = [
       path: 'dashboard',
       name: 'Dashboard',
       component: () => import('@/views/dashboard/index'),
-      meta: { title: 'Dashboard', icon: 'dashboard' }
+      meta: { title: '首页', icon: 'dashboard' }
     }]
-  },
-
-  {
-    path: '/example',
-    component: Layout,
-    redirect: '/example/table',
-    name: 'Example',
-    meta: { title: 'Example', icon: 'example' },
-    children: [
-      {
-        path: 'table',
-        name: 'Table',
-        component: () => import('@/views/table/index'),
-        meta: { title: 'Table', icon: 'table' }
-      },
-      {
-        path: 'tree',
-        name: 'Tree',
-        component: () => import('@/views/tree/index'),
-        meta: { title: 'Tree', icon: 'tree' }
-      }
-    ]
-  },
-
-  {
-    path: '/form',
-    component: Layout,
-    children: [
-      {
-        path: 'index',
-        name: 'Form',
-        component: () => import('@/views/form/index'),
-        meta: { title: 'Form', icon: 'form' }
-      }
-    ]
   }
 ]
 
@@ -102,7 +67,7 @@ export const asyncRoutes = [
     redirect: '/nested/menu1',
     name: 'Nested',
     meta: {
-      title: 'Nested',
+      title: '系统管理',
       icon: 'nested'
     },
     children: [
@@ -147,9 +112,34 @@ export const asyncRoutes = [
         ]
       },
       {
-        path: 'menu2',
-        component: () => import('@/views/nested/menu2/index'),
-        meta: { title: 'menu2' }
+        path: 'dictList',
+        component: () => import('@/views/nested/dictList'),
+        meta: { title: '字典管理' },
+        name: 'DictList'
+      },
+      {
+        path: 'dictAdd',
+        name: 'DictAdd',
+        meta: { title: '字典新增' },
+        hidden: true
+      },
+      {
+        path: 'dictEdit',
+        name: 'DictEdit',
+        meta: { title: '字典编辑' },
+        hidden: true
+      },
+      {
+        path: 'dictRemove',
+        name: 'DictRemove',
+        meta: { title: '字典删除' },
+        hidden: true
+      },
+      {
+        path: 'dictBatchRemove',
+        name: 'DictBatchRemove',
+        meta: { title: '字典批量删除' },
+        hidden: true
       }
     ]
   },

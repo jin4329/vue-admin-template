@@ -21,6 +21,9 @@ const mutations = {
   },
   SET_ROLES: (state, roles) => {
     state.roles = roles
+  },
+  SET_TEL: (state, tel) => {
+    state.tel = tel
   }
 }
 
@@ -33,7 +36,15 @@ const actions = {
         const { data } = response
         commit('SET_TOKEN', data.token)
         setToken(data.token)
-        resolve()
+        // 菜单
+        localStorage.setItem('routerList', JSON.stringify(data.menuList))
+        // 昵称
+        commit('SET_NAME', data.nickname)
+        // 头像
+        commit('SET_AVATAR', data.headImgUrl)
+        // 电话
+        commit('SET_TEL', data.tel)
+        resolve(response)
       }).catch(error => {
         reject(error)
       })

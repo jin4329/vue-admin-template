@@ -1,7 +1,7 @@
 <template>
   <div class="dashboard-container">
-    <div class="dashboard-text">name: {{ name }}</div>
-    <div class="dashboard-text">roles: <span v-for="role in roles" :key="role">{{ role }}</span></div>
+    <div class="dashboard-text">昵称: {{ name }}</div>
+    <div v-if="tel" class="dashboard-text">电话: {{ tel }}</div>
   </div>
 </template>
 
@@ -13,7 +13,7 @@ export default {
   computed: {
     ...mapGetters([
       'name',
-      'roles'
+      'tel'
     ])
   }
 }
